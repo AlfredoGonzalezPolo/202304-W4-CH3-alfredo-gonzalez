@@ -1,5 +1,5 @@
 export class ApiRepository<T extends { id: string | number }> {
-  constructor(public url: string) {}
+  constructor(public url: "http://localhost:3000/characters") {}
 
   async getAll(): Promise<T[]> {
     const response = await fetch(this.url);
