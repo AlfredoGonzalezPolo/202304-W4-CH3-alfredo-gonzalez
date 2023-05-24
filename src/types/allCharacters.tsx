@@ -1,6 +1,6 @@
-import { Adviser } from "./character";
-import { Fighter } from "./character";
-import { Squires } from "./character";
-import { Kings } from "./character";
+import { Adviser } from "../models/character";
+import { Fighter } from "../models/character";
+import { Squires } from "../models/character";
+import { Kings } from "../models/character";
 
 export type AllCharacters = Adviser | Fighter | Squires | Kings;
